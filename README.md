@@ -11,7 +11,7 @@ docker compose up -d
 
 ## Default login
 ```
-admin@exmaple.com
+admin@example.com
 changeme
 ```
 ## Example
