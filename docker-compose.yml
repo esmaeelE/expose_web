@@ -10,7 +10,10 @@ services:
       - '81:81' # Admin Web Port
       # Add any other Stream port you want to expose
       # - '21:21' # FTP
-
+    
+    # to use in host network
+    # network_mode: "host"
+    
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
