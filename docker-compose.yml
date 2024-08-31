@@ -13,6 +13,9 @@ services:
     
     # to use in host network
     # network_mode: "host"
+    # above config remove container network isolation so you can access to host directly.
+    # In nginx proxy manager you can use 127.0.0.1 to access local expose ports because of 
+    # nginx proxy manager now run in host network not inside container.
     
     volumes:
       - ./data:/data
